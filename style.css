@@ -80,7 +80,7 @@ header {
 }
 
 .responsive {
-    width: 60rem;
+    width: 70rem;
     height: auto;
 }
 
@@ -144,8 +144,7 @@ For responsiveness of the website*/
         margin: 0.5rem 0;
     }
     .ctfDate {
-        font-size: 35px;
-        color: #eee;
+        font-size: 30px;
     }
     .vid {
         width: 85% !important;
@@ -171,16 +170,14 @@ For responsiveness of the website*/
         letter-spacing: 8px;
     }
     .responsive {
-        width: 100%;
+        width: 95%;
     }
     #bg-vid {
         margin-top: 50px;
     }
     .header-content {
-        position: relative !important;
-        height: 100vh;
+       
         margin-bottom: 15px;
-        padding: 100px 15px 0px 15px !important;
     }
     .firstHr {
         display: none;
