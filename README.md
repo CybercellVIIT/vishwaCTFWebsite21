@@ -1,4 +1,4 @@
-# miniVishwaCTF
+# VishwaCTF
 
 Repo for collaboration on VishwaCTF21's webpage.
 
