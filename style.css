@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 * {
     scroll-behavior: smooth;
 }
@@ -15,9 +16,9 @@ body {
     scroll-behavior: smooth !important;
     display: block;
     align-items: center;
-    display: flex;
-    justify-content: center;
-    background-image: url('5.png');
+    /* display: flex;
+    justify-content: center; */
+    background-image: url('4.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -122,6 +123,60 @@ header {
   }
   
 
+/* Sponsors */
+.index_sponsors{
+    margin: 20px 80px;
+    text-align: center;
+}
+
+.sponsor_row{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.index_title{
+    color: #00bdff;
+    font-size: 45px;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 1px;
+    width: 20vw;
+    margin: auto;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+
+.sponsor_category{
+    background-color: transparent;
+    margin-top: 25px !important;
+    border-radius: 20px;
+    width: 50vw;
+    margin: auto;
+    border-left : 8px solid #00bdff;
+    border-top: 0.1px solid #00bdff;
+    border-bottom: 0.1px solid #00bdff;
+}
+
+.sponsor_sub{
+    text-align: center;
+    color: #f3f704;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+    margin: auto;
+    width: fit-content;
+    padding: 15px 15px 0px 15px;
+    font-size: 30px;
+}
+
+.sponsor_img{
+    width: 20rem;
+    height: auto;
+    padding: 10px;
+}
+
 
 /*Media Query Part 
 For responsiveness of the website*/
@@ -146,12 +201,7 @@ For responsiveness of the website*/
     .ctfDate {
         font-size: 30px;
     }
-    .vid {
-        width: 85% !important;
-        height: 100vh !important;
-        display: none;
-        background-color: #0f0f0f;
-    }
+
     .countdown {
         font-size: 20px;
     }
@@ -162,12 +212,6 @@ For responsiveness of the website*/
     .cyber {
         margin-top: 10px;
         width: 15rem;
-    }
-    .presents {
-        font-weight: 100 !important;
-        margin-top: 10px;
-        font-size: 17px;
-        letter-spacing: 8px;
     }
     .responsive {
         width: 95%;
@@ -190,17 +234,63 @@ For responsiveness of the website*/
         margin: 10px 20px 10px 20px;
         padding: 10px;
     }
-    header {
-        background: none;
-        background-color: #0f0f0f;
-    }
     
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 0;
-        color: #fff;
-        width: 100vw;
-        background-color: #1ee2e7;
-    }
+
+    /* Sponsors */
+.index_sponsors{
+    margin: 20px 80px;
+    text-align: center;
+}
+
+.sponsor_row{
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.index_title{
+    color: #00bdff;
+    font-size: 35px;
+    margin-top: 15px !important;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 2px;
+    width: 65vw;
+    margin: auto;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+
+.sponsor_category{
+    background-color: transparent;
+    margin-top: 25px !important;
+    border-radius: 20px;
+    width: 90vw;
+    margin: auto;
+    border-left : 4px solid #00bdff;
+    border-bottom: 0.1px solid #00bdff
+}
+
+.sponsor_sub{
+    text-align: center;
+    color: #f3f704;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+    margin: auto;
+    width: fit-content;
+    padding: 10px 10px 0px 10px;
+    font-size: 24px;
+}
+
+.sponsor_img{
+    width: 12rem;
+    height: auto;
+    padding: 10px;
+}
 }
 
 
