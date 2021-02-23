@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+html{
+	height: 100%;
+	font-family: 'Poppins', sans-serif !important;
+	background-color: transparent;
+}
+
+body{
+	height: 100%;
+	background-color: transparent;
+	background-image: url('/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 0vh;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.sideNav{
+	position: fixed;
+	top: 5%;
+	bottom: auto;
+	z-index: 10;
+	left: 1%;
+	padding-top: 250px;
+	
+}
+
+.sideNav ul{
+	list-style: none;
+	padding: 0;
+	padding-left: 3px;
+	background-color: #333;
+	border-radius: 10px;
+	
+}
+
+.sideNav li{
+	padding: 25px 10px 25px 15px;
+
+}
+
+.sideNav span{
+	display: inline-block;
+	position:relative;
+}
+
+.sideNav a{
+	display: inline-block;
+	color: #eae7af;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.circle{
+	height: 10px;
+	width: 10px;
+	left: -10px;
+	border-radius: 50%;
+	background-color:#eae7af;
+}
+
+.rect{
+	height: 3px;
+	width: 0px;
+	left: 0;
+	bottom: 4px;
+	background-color: rgb(0, 162, 255);
+	-webkit-transition: -webkit-transform 0.6s, width 1s;
+	-moz-transition: -webkit-transform 0.6s, width 1s;
+	transition: transform 0.6s, width 1s;
+}
+
+.sideNav a:hover, .sideNav .active-section{
+	color:rgb(0, 162, 255);
+	text-decoration: none;
+}
+
+.sideNav a:hover span, .sideNav .active-section span{
+	background-color: rgb(0, 162, 255);
+}
+
+.sideNav .active-section .rect{
+	width: 20px;
+}
+
+.content-section{
+	position: relative;
+	width: 70%;
+	height: 90%;
+	left: 20%;
+	margin-top: 100px;
+	background-color: transparent;
+	text-align: center;
+	border-left: 2px solid burlywood;
+	border-bottom: 0.5px solid burlywood;
+	padding: 20px 50px;
+	border-radius: 15px;
+}
+
+
+
+
+
+/* for mobile view */
+@media(max-width:576px){
+
+
+.sideNav {
+	/* position: fixed;
+	top: 5%;
+	bottom: auto;
+	z-index: 10;
+	padding-top: 250px; */
+	display: none;
+}
+
+.sideNav ul{
+	list-style: none;
+	padding: 0;
+	background-color: #4b5d67;
+	border-radius: 10px;
+	
+}
+
+.sideNav li{
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+
+.sideNav span{
+	display: inline-block;
+	position:relative;
+}
+
+.sideNav a{
+	display: inline-block;
+	color: #eae7af;
+	text-decoration: none;
+	font-size: 7px;
+	font-weight: 300;
+}
+
+.circle{
+	height: 10px;
+	width: 10px;
+	left: -10px;
+	border-radius: 50%;
+	background-color:#eae7af;
+}
+
+.rect{
+	height: 3px;
+	width: 0px;
+	left: 0;
+	bottom: 4px;
+	background-color: rgb(0, 162, 255);
+	-webkit-transition: -webkit-transform 0.6s, width 1s;
+	-moz-transition: -webkit-transform 0.6s, width 1s;
+	transition: transform 0.6s, width 1s;
+}
+
+.sideNav a:hover, .sideNav .active-section{
+	color:rgb(0, 162, 255);
+	text-decoration: none;
+}
+
+.sideNav a:hover span, .sideNav .active-section span{
+	background-color: rgb(0, 162, 255);
+}
+
+.sideNav .active-section .rect{
+	width: 10px;
+}
+
+.content-section{
+	position: relative;
+	width: 94%;
+	height: 90%;
+	left: 3%;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px 10px;
+	border-radius: 15px;
+}
+
+}

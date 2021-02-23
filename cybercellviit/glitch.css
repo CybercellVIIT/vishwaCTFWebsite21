@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.glitch{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title {
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    bottom:0px;
+    margin-right:85%;
+    font-family: 'Roboto', sans-serif;
+}
+.title .title-top {
+  position: absolute;
+  text-align: center;
+  color: #222831;
+  font-size: 120px;
+  text-transform: uppercase;
+}
+.title .title-top.one {
+  -webkit-clip-path: inset(0% 0% 75% 0);
+  clip-path: inset(0% 0% 75% 0);
+}
+.title .title-top.two {
+  -webkit-clip-path: inset(25% 0% 50% 0);
+  clip-path: inset(25% 0% 50% 0);
+}
+.title .title-top.three {
+  -webkit-clip-path: inset(50% 0 25% 0);
+  clip-path: inset(50% 0 25% 0);
+}
+.title .title-top.four {
+  -webkit-clip-path: inset(75% 0 0 0);
+  clip-path: inset(75% 0 0 0);
+}
+.title .title-top.redShadow {
+  text-shadow: -3px 3px red;
+}
+.title .title-top.greenShadow {
+  text-shadow: 4px -2px rgb(136, 255, 0);
+}
+
+
+
+/* for mobile view */
+@media(max-width:576px){
+
+.glitch{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title {
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    bottom:0px;
+    margin-right:76%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.title .title-top {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  color: #222831;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.title .title-top.one {
+  -webkit-clip-path: inset(0% 0% 75% 0);
+  clip-path: inset(0% 0% 75% 0);
+}
+.title .title-top.two {
+  -webkit-clip-path: inset(25% 0% 50% 0);
+  clip-path: inset(25% 0% 50% 0);
+}
+.title .title-top.three {
+  -webkit-clip-path: inset(50% 0 25% 0);
+  clip-path: inset(50% 0 25% 0);
+}
+.title .title-top.four {
+  -webkit-clip-path: inset(75% 0 0 0);
+  clip-path: inset(75% 0 0 0);
+}
+.title .title-top.redShadow {
+  text-shadow: -3px 3px red;
+}
+.title .title-top.greenShadow {
+  text-shadow: 4px -2px rgb(136, 255, 0);
+}
+
+}

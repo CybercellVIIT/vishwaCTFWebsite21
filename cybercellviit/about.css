@@ -1,0 +1,115 @@
+
+.cybercelLogo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.viLogoCol{
+	display: flex;
+}
+
+
+
+#college-logo{
+	display: flex;
+	width: fit-content;
+	height: auto;
+	margin: auto;
+}
+
+#logo{
+	width: 40rem;
+	height: auto;
+}
+
+.allSections{
+	margin-top: 200px;
+}
+
+#team-img{
+	width:100%;
+	height: auto;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+
+.heading{
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: left;
+	color: #f9d276;
+}
+
+.content{
+	text-align: justify;
+	font-size: 20px;
+	color: #eee;
+}
+
+.about_hr{
+	width:80%;
+	margin: auto;
+	margin-top: 5px;
+	margin-left: 0px !important;
+}
+
+
+
+/* for mobile view */
+@media(max-width: 576px){
+
+
+.cybercelLogo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#college-logo{
+	display: flex;
+	width: 170px;
+	height: auto;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+#logo{
+	width: 17rem;
+	height: auto;
+}
+
+.allSections{
+	margin-top: 0;
+}
+
+#team-img{
+	width:100%;
+	height: auto;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+
+.heading{
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: left;
+	color: #f9d276;
+}
+
+.content{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 20px;
+	color: #eee;
+}
+
+.about_hr{
+	width:80%;
+	margin: auto;
+	margin-top: 5px;
+	margin-left: 0px !important;
+}
+}

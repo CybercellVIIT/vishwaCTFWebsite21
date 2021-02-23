@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>faq</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body 
+        {
+            background-color:lightslategrey;
+        }
+        .list{
+            border-bottom-style: solid;
+            border-color:snow;
+            border-width: 1.5px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: #e4e6e5;
+        }
+        #heading{
+            font-family: wf_segoe-ui_light,wf_segoe-ui_normal,Tahoma,Verdana,Arial,sans-serif;
+            font-weight: 100;
+            font-size: 2em;
+            line-height: 1.25; 
+            color:white; 
+            padding-top: 3vw;
+            padding-bottom: 3vw; 
+            background-color:rgb(25, 40, 68);
+        }
+        a{
+            font-family: titillium web,sans-serif;
+            font-weight: 400;
+            font-size: 1.1em;
+            color:white;
+        }
+        a:hover{
+            color:rgb(25, 40, 68);
+        }
+        .card-body{
+            font-family: titillium web,sans-serif;
+            font-weight: 400;
+        }
+        @media(max-width: 576px)
+        {
+          #heading{
+            font-size:1.4em;
+            padding-top: 4.5vw;
+            padding-bottom: 4.5vw;
+            font-weight: 30;
+          }
+          a{
+            font-size: 1.1em;
+            font-weight: 300;
+          }
+          .list{
+            border-width: 1.2px;
+            font-size: 0.9em;
+          }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class=container-fluid>
+        <div id="heading" class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                Frequently Asked Questions
+            </div>
+        </div>
+        <div class="row" style="padding-top: 4vw; padding-bottom: 4vw;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div id="question-list">
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que1">
+                            What is a CTF?
+                        </a>
+                      <div id="que1" class="collapse show" data-parent="#question-list">
+                        <div class="card-body">
+                            CTF stands for "Capture the Flag". CTFs are a type of computer security competition (but HSCTF extends beyond computer security to include other areas of computer science). Certain pieces of information, called "flags", are placed on servers, encrypted, hidden, or otherwise stored somewhere difficult to access. During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits this flag to a scoring page, they will get points
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que2">
+                            What is HSCTF?
+                      </a>
+                      <div id="que2" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            HSCTF ("High School Capture the Flag") is the first CTF designed by high schoolers for high schoolers.
+
+                            Unlike other CTFs, HSCTF isn't purely about computer security. It extends the CTF model of competition to other areas of computer science such as the design and analysis of algorithms and programming languages. Each challenge will still have a flag, and most of our challenges will fall into the traditional CTF categories of cryptography, reverse engineering, programming languages, forensics, and recon.
+                            
+                            Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.
+                            
+                            Our primary goals are to educate students in computer science, and to increase their interest in computer science.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que3">
+                            Who can compete?
+                        </a>
+                      <div id="que3" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            The competition is open to middle school and high school (6th to 12th grade) students from the United States. Teams can be composed of 5 or fewer students.
+
+                            There will be a non-competitive division for all participating teams who are disqualified by the above rules.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que4">
+                            Why?
+                        </a>
+                      <div id="que4" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            We love computer science and CTFs. Competing in CTFs is one of our favorite things to do; unfortunately, there aren't many CTFs out there for high schoolers. We found that we learned a lot about computer security very quickly by particating in CTFs. HSCTF will teach participants about other areas of computer science as well. HSCTF is meant to follow up on the success of picoCTF.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que5">
+                            Where?
+                        </a>
+                      <div id="que5" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            HSCTF will take place entirely online at this website. Once the competition starts, teams will be able to log in and view the challenges using the team name and password provided at registration, which will be open throughout the competition. Participants may find it useful to have the ability to install software and have unfiltered internet access.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que6">
+                            Will it be difficult?
+                        </a>
+                      <div id="que6" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            Challenges will vary widely in difficulty. We expect some challenges to be solved by every team, and others to be solved by only a few teams or even none. Teams should be potentially capable of performing very well in this competition with no CTF experience. We hope HSCTF will be a fun, educational experience for all competitors.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que7">
+                            What resources do I need to compete?
+                        </a>
+                      <div id="que7" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            Full participation in the competition requires only a computer with a modern web browser (Firefox, Chrome, Opera, Safari, Internet Explorer 9+, etc.) and the ability to install applications.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que8">
+                            How is it scored?
+                        </a>
+                      <div id="que8" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            There will be several dozen challenges, each worth a fixed number of points based on its difficulty. When you solve a problem, you send your answer (or 'key', or 'flag') to a scoring server, which adds the problem's value to your team's score. At the end of the competition the team(s) with the highest scores are the winners. Time will be used as a tiebreaker.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que9">
+                            What constitutes cheating?
+                        </a>
+                      <div id="que9" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            Partipants in HSCTF must abide by a few common sense rules that ensure the competition is fair. These rules are copied from picoCTF's FAQ: Attacking the scoring server, other teams, or machines not explicitly designated as targets is cheating. This includes both breaking into such machines and denying others access to them (for example, by altering a key or ping-flooding). Sharing keys or providing overly-revealing hints with other teams is cheating, as is being directly assisted by personnel outside the team (using tools from the internet is OK; asking people on the internet to help you solve the problem is not). We encourage you to solve problems in novel and creative ways using all available resources, but we do require that you solve them yourselves.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que10">
+                            Who is running HSCTF?
+                        </a>
+                      <div id="que10" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            HSCTF is organized by students at West Windsor-Plainsboro High School North in New Jersey as part of its computer science club.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#que11">
+                            Are there any related competitions?
+                        </a>
+                      <div id="que11" class="collapse" data-parent="#question-list">
+                        <div class="card-body">
+                            Yes! Look at picoCTF, run by Carnegie Mellon University, and CSAW RED, run by the New York University Tandon School of Engineering..
+
+                            USACO is a competition that includes algorithm problems.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

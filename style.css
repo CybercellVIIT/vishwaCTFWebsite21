@@ -8,7 +8,6 @@
   
 
 body {
-    font-family: 'Questrial', 'Helvetica Neue', Arial, sans-serif;
     /* background-color: transparent; */
     color: #d3d3d3;
     background-color: black!important;
@@ -141,7 +140,7 @@ header {
     font-size: 45px;
     font-weight: 500;
     background-color: #333;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1px;
     width: 20vw;
     margin: auto;
@@ -150,14 +149,13 @@ header {
 }
 
 .sponsor_category{
-    background-color: transparent;
+ 
     margin-top: 25px !important;
     border-radius: 20px;
     width: 50vw;
     margin: auto;
-    border-left : 8px solid #00bdff;
-    border-top: 0.1px solid #00bdff;
-    border-bottom: 0.1px solid #00bdff;
+    border-left : 2px solid #00bdff;
+
 }
 
 .sponsor_sub{
@@ -271,8 +269,6 @@ For responsiveness of the website*/
     border-radius: 20px;
     width: 90vw;
     margin: auto;
-    border-left : 4px solid #00bdff;
-    border-bottom: 0.1px solid #00bdff
 }
 
 .sponsor_sub{
