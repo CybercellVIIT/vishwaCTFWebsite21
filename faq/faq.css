@@ -1,0 +1,118 @@
+body 
+{
+    background-color:transparent !important;
+    background-image: url('/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 3vh;
+}
+.list{
+
+    border-bottom:1px solid snow;
+    border-width: 1.5px;
+    color: #e4e6e5;
+    cursor: pointer;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.list:hover , .list:active , .list:focus{
+    background-color:rgb(25, 40, 68);
+    text-decoration: none;
+    border-left:2px solid snow;
+
+}
+
+.question{
+    width: 100%;
+    padding: 20px 0px; 
+}
+
+#heading{
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1.25;
+    color: white;
+    border-radius: 10px;
+    padding: 2vw;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px !important;
+    background-color: rgb(25, 40, 68)
+}
+.list a{
+   font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1.5em;
+    color:white;
+    transition: 0.2s;
+}
+.list a:hover{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list a:active, .list a:focus   {
+    font-size: 20px;
+
+}
+.card-body{
+    font-weight: 400;
+    padding: 5px 5px 10px 5px;
+    font-size: 18px;
+    font-family: 'poppins';
+}
+
+.card-link:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 25;
+}
+
+.card-link:active , .card-link:focus{
+    text-decoration: none;
+    color: #1ee2e7;
+    font-weight: 700;
+    font-size: 25;
+}
+@media(max-width: 576px)
+{
+    body 
+    {
+    background-color:transparent !important;
+    background-image: url('/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: 5vh;
+    }
+  #heading{
+    font-size:1.4em;
+    padding:5vw;
+    font-weight: 600;
+  }
+ .list a{
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+  .list{
+    border-width: 1.2px;
+    font-size: 0.9em;
+    backdrop-filter: blur(10px);
+  }
+
+  .list:hover , .list:active , .list:focus{
+    text-decoration: none;
+    border-left:2px solid snow;
+    background-color: transparent;
+
+}
+}

@@ -3,13 +3,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 
 html{
-	height: 100%;
+	/* height: 100%; */
 	font-family: 'Poppins', sans-serif !important;
 	background-color: transparent;
 }
 
 body{
-	height: 100%;
+	/* height: 100%; */
 	background-color: transparent;
 	background-image: url('/4.png');
     background-size: cover;
@@ -99,7 +99,7 @@ body{
 	text-align: center;
 	border-left: 2px solid burlywood;
 	border-bottom: 0.5px solid burlywood;
-	padding: 20px 50px;
+	padding: 60px 50px 0px 50px;
 	border-radius: 15px;
 }
 

@@ -2,74 +2,74 @@
 <head>
     <meta charset="utf-8">
     <title>faq</title>
+    <title>FAQ | vishwaCTF 2021</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1299705970700902401/tGq3_vZP_400x400.jpg" type="image/gif">
+    <meta property="og:title" content="vishwaCTF 2021" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://vishwactf.com" />
+    <meta property="og:image" content="https://ctftime.org/media/events/mctflogo_page-0001-removebg-preview.png" />
+    <meta property=”og:image” content="https://ctftime.org/media/cache/ee/7a/ee7a53b96f311b8116290b95bbdaecf2.png"/>
+    <meta name="description" content="Frequently asked Questions | vishwaCTF 2021" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        body 
-        {
-            background-color:lightslategrey;
-        }
-        .list{
-            border-bottom-style: solid;
-            border-color:snow;
-            border-width: 1.5px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            color: #e4e6e5;
-        }
-        #heading{
-            font-family: wf_segoe-ui_light,wf_segoe-ui_normal,Tahoma,Verdana,Arial,sans-serif;
-            font-weight: 100;
-            font-size: 2em;
-            line-height: 1.25; 
-            color:white; 
-            padding-top: 3vw;
-            padding-bottom: 3vw; 
-            background-color:rgb(25, 40, 68);
-        }
-        a{
-            font-family: titillium web,sans-serif;
-            font-weight: 400;
-            font-size: 1.1em;
-            color:white;
-        }
-        a:hover{
-            color:rgb(25, 40, 68);
-        }
-        .card-body{
-            font-family: titillium web,sans-serif;
-            font-weight: 400;
-        }
-        @media(max-width: 576px)
-        {
-          #heading{
-            font-size:1.4em;
-            padding-top: 4.5vw;
-            padding-bottom: 4.5vw;
-            font-weight: 30;
-          }
-          a{
-            font-size: 1.1em;
-            font-weight: 300;
-          }
-          .list{
-            border-width: 1.2px;
-            font-size: 0.9em;
-          }
-        }
-    </style>
+    <link rel="stylesheet" href="/vishwaNav.css">
+    <link rel="stylesheet" href="./faq.css">
+    <link rel="stylesheet" href="/Vishwafooter.css">
 </head>
 <body>
+
+  <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">vishwaCTF 2021</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden active">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="">
+                    <a class="page-scroll" href="/index.html">Home</a>
+                </li>
+                <li class="">
+                    <a class="page-scroll" href="https://play-vishwactf-mini.ml/register" target="_blank">Practice</a>
+                </li>
+                <li class="">
+                    <a class="page-scroll" href="/cybercellviit/about.html">About CyberCell</a>
+                </li>
+                <li class="">
+                    <a class="page-scroll active" href="/faq/faq.html">FAQ</a>
+                </li>
+                <li class="">
+                    <a class="page-scroll" href="#footer">Contact Us</a>
+                </li>
+
+                <li class="">
+                    <a class="page-scroll" href="#contact">Play CTF!</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
     
     <div class=container-fluid>
-        <div id="heading" class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
+        <div id="heading">
                 Frequently Asked Questions
-            </div>
         </div>
         <div class="row" style="padding-top: 4vw; padding-bottom: 4vw;">
             <div class="col-sm-2"></div>
@@ -77,45 +77,45 @@
                 <div id="question-list">
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que1">
-                            What is a CTF?
+                            <div class="question">What is a CTF?</div>
                         </a>
                       <div id="que1" class="collapse show" data-parent="#question-list">
                         <div class="card-body">
-                            CTF stands for "Capture the Flag". CTFs are a type of computer security competition (but HSCTF extends beyond computer security to include other areas of computer science). Certain pieces of information, called "flags", are placed on servers, encrypted, hidden, or otherwise stored somewhere difficult to access. During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits this flag to a scoring page, they will get points
+                            CTF stands for "Capture the Flag". CTFs are a type of computer security competition. 
+                            Certain pieces of information, called "flags", are placed on servers, encrypted, hidden,
+                            or otherwise stored somewhere difficult to access. During the competition, different challenges
+                            are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever
+                            it takes to capture that flag. When a team submits this flag to a scoring page, they will get points
                         </div>
                       </div>
                     </div>
+
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que2">
-                            What is HSCTF?
+                          <div class="question">  What is vishwaCTF?</div>
                       </a>
                       <div id="que2" class="collapse" data-parent="#question-list">
                         <div class="card-body">
-                            HSCTF ("High School Capture the Flag") is the first CTF designed by high schoolers for high schoolers.
-
-                            Unlike other CTFs, HSCTF isn't purely about computer security. It extends the CTF model of competition to other areas of computer science such as the design and analysis of algorithms and programming languages. Each challenge will still have a flag, and most of our challenges will fall into the traditional CTF categories of cryptography, reverse engineering, programming languages, forensics, and recon.
-                            
-                            Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.
-                            
-                            Our primary goals are to educate students in computer science, and to increase their interest in computer science.
+                          VishwaCTF is the Flagship event of CyberCell, VIIT.At its inception, it was the first CTF from Maharashtra, India.
+                           And also, the second one from India organized independently by any college.
                         </div>
                       </div>
                     </div>
+
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que3">
-                            Who can compete?
+                            <div class="question"> Who can participate?</div>
                         </a>
                       <div id="que3" class="collapse" data-parent="#question-list">
                         <div class="card-body">
-                            The competition is open to middle school and high school (6th to 12th grade) students from the United States. Teams can be composed of 5 or fewer students.
-
-                            There will be a non-competitive division for all participating teams who are disqualified by the above rules.
+                          The competition is designed specially for beginners
                         </div>
                       </div>
                     </div>
+
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que4">
-                            Why?
+                            <div class="question"> Why?</div>
                         </a>
                       <div id="que4" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -125,7 +125,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que5">
-                            Where?
+                          <div class="question">Where?</div>
                         </a>
                       <div id="que5" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -135,7 +135,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que6">
-                            Will it be difficult?
+                          <div class="question">Will it be difficult?</div>
                         </a>
                       <div id="que6" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -145,7 +145,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que7">
-                            What resources do I need to compete?
+                          <div class="question"> What resources do I need to compete?</div>
                         </a>
                       <div id="que7" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -155,7 +155,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que8">
-                            How is it scored?
+                          <div class="question">How is it scored?</div>
                         </a>
                       <div id="que8" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -165,7 +165,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que9">
-                            What constitutes cheating?
+                          <div class="question">What constitutes cheating?</div>
                         </a>
                       <div id="que9" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -175,7 +175,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que10">
-                            Who is running HSCTF?
+                          <div class="question">  Who is running vishwaCTF?</div>
                         </a>
                       <div id="que10" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -185,7 +185,7 @@
                     </div>
                     <div class="list">
                         <a class="collapsed card-link" data-toggle="collapse" href="#que11">
-                            Are there any related competitions?
+                          <div class="question">Are there any related competitions?</div>
                         </a>
                       <div id="que11" class="collapse" data-parent="#question-list">
                         <div class="card-body">
@@ -199,4 +199,17 @@
             </div>
         </div>
     </div>
+
+    <div class="v-footer" id="footer">
+      <div class="footerHead">Contact Us</div>
+      <div class="footerSubHead">You can submit your write-ups on our github</div>
+      <div class="flex-center">
+          <i class="fa fa-twitter fa-3x icon-3d"></i>
+          <i class="fa fa-github fa-3x icon-3d"></i>
+          <i class="fa fa-instagram fa-3x icon-3d"></i>
+          <i class="fa fa-linkedin fa-3x icon-3d"></i>
+          <i class="fa fa-envelope fa-3x icon-3d"></i>
+        </div>
+  </div>
+
 </body>

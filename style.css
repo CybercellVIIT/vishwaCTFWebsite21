@@ -132,6 +132,7 @@ header {
     padding: 10px 20px 20px 20px;
     text-align: center;
     display: flex;
+
     justify-content: space-evenly;
 }
 
@@ -149,7 +150,8 @@ header {
 }
 
 .sponsor_category{
- 
+    background-color: transparent;
+    backdrop-filter: blur(15px);
     margin-top: 25px !important;
     border-radius: 20px;
     width: 50vw;
@@ -180,13 +182,13 @@ header {
 For responsiveness of the website*/
 
 @media (max-width: 600px) {
-    .body {
-        background-image: url('flagbg.jpg')!important;
+    body {
+        background-image: url('/4.png')!important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-attachment: fixed !important;
-        background-position-x: center !important;
-        background-position-y: 0vh!important;
+        background-position-x: right !important;
+        background-position-y: 4vh!important;
     }
  
     .maindiv {

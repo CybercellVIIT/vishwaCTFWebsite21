@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+.v-footer{
+   bottom: 0;
+   position: relative;
+   padding: 20px 0px 0px 0px; 
+   width: 100%;
+   margin-top: 3%;
+}
+
+.footerHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00bdff;
+    /* rgba(75, 255, 4, 0.993) */
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 1px;
+    width: 20%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+
+.footerSubHead{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Poppins';
+    color: snow;
+}
+
+.flex-center {
+    /* background: #000; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content:space-evenly;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+
+
+.icon-3d {
+    padding: 10px;
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+    color: #fff;
+  }
+  .icon-3d:hover {
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
+  }
+  
+  @keyframes icon3d {
+    0% {
+      text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+    }
+    25% {
+      text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+    }
+    50% {
+      text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+    }
+    75% {
+      text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+    }
+    100% {
+      text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+    }
+  }
+
+@media (max-width: 600px){
+.footerHead {
+    color: #00bdff;
+    font-size: 35px;
+    margin-top: 15px !important;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 2px;
+    width: 65vw;
+    margin: auto;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+}
