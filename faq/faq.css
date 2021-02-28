@@ -60,13 +60,19 @@ body
 
 .list a:active, .list a:focus   {
     font-size: 20px;
-
 }
 .card-body{
     font-weight: 400;
     padding: 5px 5px 10px 5px;
     font-size: 18px;
     font-family: 'poppins';
+}
+
+.card-body a{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'poppins';
+    text-decoration: underline;
 }
 
 .card-link:hover{
