@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 
-  
+
 
 body {
     /* background-color: transparent; */
@@ -94,33 +94,33 @@ header {
     justify-content: center;
     align-items: center;
   }
-  
+
   .effect-wrapper {
     text-align: center;
     font-weight: normal;
   }
-  
+
   #typed {
     font-weight: bold;
     color: #00bdff;
   }
-  
+
   .cursor {
     display: inline-block;
     background-color: #b0ff95;
     animation: blinker 500ms infinite;
   }
-  
+
   .cursor.typing-true {
     animation: none;
   }
-  
+
   @keyframes blinker {
       0% { background-color: #b0ff95; }
       50% { background-color: transparent; }
       100% { background-color: #b0ff95; }
   }
-  
+
 
 /* Sponsors */
 .index_sponsors{
@@ -156,7 +156,7 @@ header {
     border-radius: 20px;
     width: 50vw;
     margin: auto;
-    border-left : 2px solid #00bdff;
+    border-top : 2px solid #00bdff;
 
 }
 
@@ -177,20 +177,67 @@ header {
     padding: 10px;
 }
 
+/* partners */
+.index_partner{
+    color: #00bdff;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 10px;
+    width: 20vw;
+    margin-top: 30px !important;
+    margin: auto;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+.partners{
+    background-color: transparent;
+    /* backdrop-filter: blur(15px); */
+    margin-top: 25px !important;
+    border-radius: 20px;
+    width: 70vw;
+    margin: auto;
+    border-top : 2px solid #00bdff;
+}
 
-/*Media Query Part 
+.partner_row{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+
+    justify-content: space-evenly;
+}
+.partner_img{
+    width: 30rem;
+    height: auto    ;
+}
+
+.partner_body{
+    width: 100%;
+    font-size: 1.8em;
+    padding: 2px;
+    color: aliceblue;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+.partner_row :hover{
+    text-decoration: none;
+}
+
+
+/*Media Query Part
 For responsiveness of the website*/
 
 @media (max-width: 600px) {
     body {
-        background-image: url('/4.png')!important;
+        background-image: url('/3.png')!important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-attachment: fixed !important;
         background-position-x: right !important;
         background-position-y: 4vh!important;
     }
- 
+
     .maindiv {
         margin: 0rem;
     }
@@ -220,7 +267,7 @@ For responsiveness of the website*/
         margin-top: 50px;
     }
     .header-content {
-       
+
         margin-bottom: 15px;
     }
     .firstHr {
@@ -234,7 +281,7 @@ For responsiveness of the website*/
         margin: 10px 20px 10px 20px;
         padding: 10px;
     }
-    
+
 
     /* Sponsors */
 .index_sponsors{
