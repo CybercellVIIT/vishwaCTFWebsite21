@@ -127,13 +127,15 @@ header {
     margin: auto;
     width: 50vw;
     background-color: #333;
-    padding: 10px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    margin-bottom: 45px !important;
 }
 .aboutHeading{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     padding: 2px;
-    color: yellowgreen;
+    color: rgba(75, 255, 4, 0.993);
     font-weight: 700;
     font-family: 'Poppins';
     border-bottom: 1px solid #d3d3d3;
@@ -143,8 +145,19 @@ header {
 
 .aboutBody{
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
 
+.aboutKeyP{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+.keyHead{
+    color: rgba(75, 255, 4, 0.993);
 }
 
 
@@ -164,7 +177,7 @@ header {
 
 .index_title{
     color: #00bdff;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 500;
     background-color: #333;
     border-radius: 10px;
@@ -311,6 +324,43 @@ For responsiveness of the website*/
         padding: 10px;
     }
 
+    /* About */
+.aboutVishwa{
+    margin: auto;
+    width: 90vw;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px!important;
+}
+.aboutHeading{
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    color: yellowgreen;
+    font-weight: 700;
+    font-family: 'Poppins';
+    border-bottom: 1px solid #d3d3d3;
+    width: 50%;
+    margin: auto;
+}
+
+.aboutBody{
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 10px;
+}
+
+.aboutKeyP{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.aboutSmall{
+    padding-left: 2%;
+}
 
     /* Sponsors */
 .index_sponsors{
@@ -365,6 +415,57 @@ For responsiveness of the website*/
     height: auto;
     padding: 10px;
 }
+
+/* partners */
+.index_partner{
+    color: #00bdff;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #333;
+    border-radius: 10px;
+    width: 55vw;
+    margin-top: 30px !important;
+    margin: auto;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+.partners{
+    background-color: transparent;
+    /* backdrop-filter: blur(15px); */
+    margin-top: 25px !important;
+    border-radius: 20px;
+    width: 70vw;
+    margin: auto;
+    border-top : 2px solid #00bdff;
+}
+
+.partner_row{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.partner_img{
+    width: 20rem;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.partner_body{
+    width: 100%;
+    font-size: 1.4em;
+    padding: 4px;
+    color: aliceblue;
+    font-family: 'Poppins';
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+.partner_row :hover{
+    text-decoration: none;
+}
+
 }
 
 
