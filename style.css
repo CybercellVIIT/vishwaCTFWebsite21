@@ -122,6 +122,32 @@ header {
   }
 
 
+/* About */
+.aboutVishwa{
+    margin: auto;
+    width: 50vw;
+    background-color: #333;
+    padding: 10px;
+}
+.aboutHeading{
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    color: yellowgreen;
+    font-weight: 700;
+    font-family: 'Poppins';
+    border-bottom: 1px solid #d3d3d3;
+    width: 50%;
+    margin: auto;
+}
+
+.aboutBody{
+    font-family: 'Poppins';
+    font-size: 20px;
+
+}
+
+
 /* Sponsors */
 .index_sponsors{
     margin: 20px 80px;
@@ -145,6 +171,7 @@ header {
     padding: 1px;
     width: 20vw;
     margin: auto;
+    margin-top: 25px;
     font-family: 'Poppins', sans-serif !important;
     text-align: center;
 }
@@ -223,6 +250,8 @@ header {
 .partner_row :hover{
     text-decoration: none;
 }
+
+
 
 
 /*Media Query Part
