@@ -17,7 +17,7 @@ body {
     align-items: center;
     /* display: flex;
     justify-content: center; */
-    background-image: url('4.png');
+    background-image: url('backgroundImg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -160,6 +160,11 @@ header {
     color: rgba(75, 255, 4, 0.993);
 }
 
+
+/* Prizes */
+.prizes{
+    width: 50;
+}
 
 /* Sponsors */
 .index_sponsors{
