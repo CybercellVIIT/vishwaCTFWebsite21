@@ -99,4 +99,8 @@
     font-family: 'Poppins', sans-serif !important;
     text-align: center;
 }
+
+.footerSubHead{
+  width: 90%;
+}
 }

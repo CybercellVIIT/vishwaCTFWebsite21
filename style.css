@@ -128,7 +128,7 @@ header {
     width: 50vw;
     background-color: #333;
     padding: 15px 30px 15px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 45px !important;
 }
 .aboutHeading{
@@ -163,7 +163,51 @@ header {
 
 /* Prizes */
 .prizes{
-    width: 50;
+    width: 50vw;
+    background-color: #333;
+    margin: auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 45px !important;
+    font-family: 'Poppins';
+}
+
+.prizeHeading{
+    text-align: center;
+    font-size: 35px;
+    padding: 2px;
+    color: rgba(75, 255, 4, 0.993);
+    font-weight: 700;
+    font-family: 'Poppins';
+    border-bottom: 1px solid #d3d3d3;
+    width: 50%;
+    margin: auto;
+}
+
+.prizeSubHead{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid;
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 5px #00bdff;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.amount{
+    color: rgba(75, 255, 4, 0.993);
+    font-weight: 700;
+    font-size: 25px !important;
+    border-radius: 7px;
+}
+
+.prizeBody{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 /* Sponsors */
@@ -346,7 +390,7 @@ For responsiveness of the website*/
     font-weight: 700;
     font-family: 'Poppins';
     border-bottom: 1px solid #d3d3d3;
-    width: 50%;
+    width: 85%;
     margin: auto;
 }
 
@@ -365,6 +409,51 @@ For responsiveness of the website*/
 
 .aboutSmall{
     padding-left: 2%;
+}
+
+
+/* Prizes */
+.prizes{
+    width: 90vw;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px!important;
+}
+
+.prizeHeading{
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    font-weight: 700;
+    width: 85%;
+    margin: auto;
+}
+
+.prizeSubHead{
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid;
+    width: 85%;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 5px #00bdff;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.amount{
+    color: rgba(75, 255, 4, 0.993);
+    font-weight: 700;
+    font-size: 25px !important;
+    border-radius: 7px;
+}
+
+.prizeBody{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
     /* Sponsors */
