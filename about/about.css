@@ -1,3 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+
+.aboutCCHeading{
+	margin-top: 80px !important;
+	margin: auto;
+	width: 30vw;
+	border-radius: 10px;
+	background-color: rgb(25, 40, 68);
+	color: white;
+	font-weight: 100;
+	font-family: 'Poppins';
+	font-size: 2.5em;
+	padding: 2vw;
+	text-align: center;
+}
 
 .cybercelLogo{
 	display: flex;
