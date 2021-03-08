@@ -1,16 +1,16 @@
-body 
-{
-    background-color:transparent !important;
-    background-image: url('/4.png');
+body {
+    background-color: transparent !important;
+    background-image: url('/backgroundImg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;
     background-position-y: 3vh;
 }
-.list{
 
-    border-bottom:1px solid snow;
+.list {
+
+    border-bottom: 1px solid snow;
     border-width: 1.5px;
     color: #e4e6e5;
     cursor: pointer;
@@ -19,19 +19,21 @@ body
     margin-top: 15px;
 }
 
-.list:hover , .list:active , .list:focus{
-    background-color:rgb(25, 40, 68);
+.list:hover,
+.list:active,
+.list:focus {
+    background-color: rgb(25, 40, 68);
     text-decoration: none;
-    border-left:2px solid snow;
+    border-left: 2px solid snow;
 
 }
 
-.question{
+.question {
     width: 100%;
-    padding: 20px 0px; 
+    padding: 20px 0px;
 }
 
-#heading{
+#heading {
     font-family: 'Poppins';
     font-weight: 100;
     font-size: 2em;
@@ -45,80 +47,89 @@ body
     margin-top: 70px !important;
     background-color: rgb(25, 40, 68)
 }
-.list a{
-   font-family: 'poppins';
+
+.list a {
+    font-family: 'poppins';
     font-weight: 400;
     font-size: 1.5em;
-    color:white;
+    color: white;
     transition: 0.2s;
 }
-.list a:hover{
+
+.list a:hover {
     color: white;
     font-weight: 700;
     font-size: 20px;
 }
 
-.list a:active, .list a:focus   {
+.list a:active,
+.list a:focus {
     font-size: 20px;
 }
-.card-body{
+
+.card-body {
     font-weight: 400;
     padding: 5px 5px 10px 5px;
     font-size: 18px;
     font-family: 'poppins';
 }
 
-.card-body a{
+.card-body a {
     font-weight: 400;
     font-size: 18px;
     font-family: 'poppins';
     text-decoration: underline;
 }
 
-.card-link:hover{
+.card-link:hover {
     text-decoration: none;
     color: white;
     font-weight: 700;
     font-size: 25;
 }
 
-.card-link:active , .card-link:focus{
+.card-link:active,
+.card-link:focus {
     text-decoration: none;
     color: #1ee2e7;
     font-weight: 700;
     font-size: 25;
 }
-@media(max-width: 576px)
-{
-    body 
-    {
-    background-color:transparent !important;
-    background-image: url('/4.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: right;
-    background-position-y: 5vh;
+
+@media(max-width: 576px) {
+    body {
+        background-color: transparent !important;
+        background-image: url('/backgroundImg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: right;
+        background-position-y: 5vh;
     }
-  #heading{
-    font-size:1.4em;
-    padding:5vw;
-    font-weight: 600;
-  }
- .list a{
-    font-size: 1.1em;
-    font-weight: 300;
-  }
-  .list{
-    border-width: 1.2px;
-    font-size: 0.9em;
-    backdrop-filter: blur(10px);
-  }
 
-  .list:hover , .list:active , .list:focus{
-    text-decoration: none;
-    border-left:2px solid snow;
-    background-color: transparent;
+    #heading {
+        font-size: 1.4em;
+        padding: 5vw;
+        font-weight: 600;
+    }
 
-}
+    .list a {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+
+    .list {
+        border-width: 1.2px;
+        font-size: 0.9em;
+        backdrop-filter: blur(10px);
+    }
+
+    .list:hover,
+    .list:active,
+    .list:focus {
+        text-decoration: none;
+        border-left: 2px solid snow;
+        background-color: transparent;
+
+    }
 }

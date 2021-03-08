@@ -1,53 +1,53 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 
-html{
+html {
 	/* height: 100%; */
 	font-family: 'Poppins', sans-serif !important;
 	background-color: transparent;
 }
 
-body{
+body {
 	/* height: 100%; */
 	background-color: transparent;
-	background-image: url('/4.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: 0vh;
+	background-image: url('/backgroundImg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: center;
+	background-position-y: 0vh;
 	font-family: 'Poppins', sans-serif !important;
 }
 
-.sideNav{
+.sideNav {
 	position: fixed;
 	top: 5%;
 	bottom: auto;
 	z-index: 10;
 	left: 1%;
 	padding-top: 250px;
-	
+
 }
 
-.sideNav ul{
+.sideNav ul {
 	list-style: none;
 	padding: 0;
 	padding-left: 3px;
 	background-color: transparent;
 	border-radius: 10px;
-	
+
 }
 
-.sideNav li{
+.sideNav li {
 	padding: 25px 10px 25px 15px;
 
 }
 
-.sideNav span{
+.sideNav span {
 	display: inline-block;
-	position:relative;
+	position: relative;
 }
 
-.sideNav a{
+.sideNav a {
 	display: inline-block;
 	color: #eae7af;
 	text-decoration: none;
@@ -55,15 +55,15 @@ body{
 	font-weight: 600;
 }
 
-.circle{
+.circle {
 	height: 10px;
 	width: 10px;
 	left: -10px;
 	border-radius: 50%;
-	background-color:#eae7af;
+	background-color: #eae7af;
 }
 
-.rect{
+.rect {
 	height: 3px;
 	width: 0px;
 	left: 0;
@@ -74,20 +74,22 @@ body{
 	transition: transform 0.6s, width 1s;
 }
 
-.sideNav a:hover, .sideNav .active-section{
-	color:rgb(0, 162, 255);
+.sideNav a:hover,
+.sideNav .active-section {
+	color: rgb(0, 162, 255);
 	text-decoration: none;
 }
 
-.sideNav a:hover span, .sideNav .active-section span{
+.sideNav a:hover span,
+.sideNav .active-section span {
 	background-color: rgb(0, 162, 255);
 }
 
-.sideNav .active-section .rect{
+.sideNav .active-section .rect {
 	width: 20px;
 }
 
-.content-section{
+.content-section {
 	position: relative;
 	width: 70%;
 	height: 90%;
@@ -106,86 +108,88 @@ body{
 
 
 /* for mobile view */
-@media(max-width:576px){
+@media(max-width:576px) {
 
 
-.sideNav {
-	/* position: fixed;
+	.sideNav {
+		/* position: fixed;
 	top: 5%;
 	bottom: auto;
 	z-index: 10;
 	padding-top: 250px; */
-	display: none;
-}
+		display: none;
+	}
 
-.sideNav ul{
-	list-style: none;
-	padding: 0;
-	background-color: #4b5d67;
-	border-radius: 10px;
-	
-}
+	.sideNav ul {
+		list-style: none;
+		padding: 0;
+		background-color: #4b5d67;
+		border-radius: 10px;
 
-.sideNav li{
-	padding-top: 3px;
-	padding-bottom: 3px;
+	}
 
-}
+	.sideNav li {
+		padding-top: 3px;
+		padding-bottom: 3px;
 
-.sideNav span{
-	display: inline-block;
-	position:relative;
-}
+	}
 
-.sideNav a{
-	display: inline-block;
-	color: #eae7af;
-	text-decoration: none;
-	font-size: 7px;
-	font-weight: 300;
-}
+	.sideNav span {
+		display: inline-block;
+		position: relative;
+	}
 
-.circle{
-	height: 10px;
-	width: 10px;
-	left: -10px;
-	border-radius: 50%;
-	background-color:#eae7af;
-}
+	.sideNav a {
+		display: inline-block;
+		color: #eae7af;
+		text-decoration: none;
+		font-size: 7px;
+		font-weight: 300;
+	}
 
-.rect{
-	height: 3px;
-	width: 0px;
-	left: 0;
-	bottom: 4px;
-	background-color: rgb(0, 162, 255);
-	-webkit-transition: -webkit-transform 0.6s, width 1s;
-	-moz-transition: -webkit-transform 0.6s, width 1s;
-	transition: transform 0.6s, width 1s;
-}
+	.circle {
+		height: 10px;
+		width: 10px;
+		left: -10px;
+		border-radius: 50%;
+		background-color: #eae7af;
+	}
 
-.sideNav a:hover, .sideNav .active-section{
-	color:rgb(0, 162, 255);
-	text-decoration: none;
-}
+	.rect {
+		height: 3px;
+		width: 0px;
+		left: 0;
+		bottom: 4px;
+		background-color: rgb(0, 162, 255);
+		-webkit-transition: -webkit-transform 0.6s, width 1s;
+		-moz-transition: -webkit-transform 0.6s, width 1s;
+		transition: transform 0.6s, width 1s;
+	}
 
-.sideNav a:hover span, .sideNav .active-section span{
-	background-color: rgb(0, 162, 255);
-}
+	.sideNav a:hover,
+	.sideNav .active-section {
+		color: rgb(0, 162, 255);
+		text-decoration: none;
+	}
 
-.sideNav .active-section .rect{
-	width: 10px;
-}
+	.sideNav a:hover span,
+	.sideNav .active-section span {
+		background-color: rgb(0, 162, 255);
+	}
 
-.content-section{
-	position: relative;
-	width: 94%;
-	height: 90%;
-	left: 3%;
-	margin-top: 20px;
-	text-align: center;
-	padding: 20px 10px;
-	border-radius: 15px;
-}
+	.sideNav .active-section .rect {
+		width: 10px;
+	}
+
+	.content-section {
+		position: relative;
+		width: 94%;
+		height: 90%;
+		left: 3%;
+		margin-top: 20px;
+		text-align: center;
+		padding: 20px 10px;
+		border-radius: 15px;
+	}
 
 }
