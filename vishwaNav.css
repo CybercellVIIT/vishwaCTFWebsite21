@@ -11,6 +11,8 @@
 .navbar-default .navbar-brand {
     font-family: 'Poppins', sans-serif !important;
     color: #1ee2e7;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -31,10 +33,12 @@
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif !important;
+    border-bottom: 5px solid;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+    
 }
 
 .navbar-default .nav li a:hover,
