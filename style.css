@@ -308,9 +308,21 @@ header {
     justify-content: space-evenly;
 }
 
-.partner_img {
+.P_imageDiv{
     width: 30rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner_img {
+    width: 28rem;
     height: auto;
+}
+
+.givemycertificate{
+    background-color: #fff;
 }
 
 .partner_body {
@@ -564,6 +576,12 @@ For responsiveness of the website*/
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .P_imageDiv{
+        margin: auto;
+        width: 20rem;
+        height: 9rem;
     }
 
     .partner_img {
