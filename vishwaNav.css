@@ -34,7 +34,6 @@
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif !important;
-    border-bottom: 5px solid;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;

@@ -28,7 +28,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ header {
 }
 
 .powered_sponsor{
-    width: 23rem !important;
+    width: 23rem;
     height: auto;
     border-radius: 10px;
     padding: 5px;
@@ -82,7 +82,7 @@ header {
 .cyber {
     width: 140px;
     height: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     position: relative;
 }
 
@@ -114,6 +114,7 @@ header {
 .effect-wrapper {
     text-align: center;
     font-weight: normal;
+    font-size: 3.5rem;
 }
 
 #typed {
@@ -327,7 +328,7 @@ header {
 }
 
 .partner_row {
-    padding: 10px 20px 20px 20px;
+    padding: 25px 20px 20px 20px;
     text-align: center;
     display: flex;
 
@@ -402,13 +403,22 @@ For responsiveness of the website*/
         padding-bottom: 5px;
     }
 
+.presents {
+    float: center;
+    font-size: small;
+    color: #f3f704;
+    font-family: 'Poppins';
+}
+
+
     .cyber {
-        margin-top: 200px;
+        margin-top: 80px;
         width: 13rem;
     }
 
     .responsive {
         width: 95%;
+        margin-top: -22px;
     }
 
     #bg-vid {
@@ -427,9 +437,13 @@ For responsiveness of the website*/
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
+        margin: auto;
+        width: 55vw;
+        border-radius: 10px;
+        border-bottom: 2px solid;
     }
     .powered_sponsor{
-        width: 15rem;
+        width: 17rem;
         height: auto;
         padding: 5px;
     }
@@ -445,6 +459,12 @@ For responsiveness of the website*/
     .registerNow {
         margin: 10px 5px 10px 5px;
         padding: 10px;
+    }
+
+    .effect-wrapper {
+        text-align: center;
+        font-weight: normal;
+        font-size: 2.2rem;
     }
 
     /* About */
