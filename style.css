@@ -67,21 +67,23 @@ header {
 }
 
 .cyber {
-    width: 150px;
+    width: 140px;
     height: auto;
-    float: center;
-    margin-top: 100px;
+    margin-top: -40px;
+    position: relative;
 }
 
 .presents {
     float: center;
     font-size: x-large;
     color: #f3f704;
+    font-family: 'Poppins';
 }
 
 .responsive {
-    width: 70rem;
+    width: 60rem;
     height: auto;
+    margin-top: -40px;
 }
 
 
@@ -230,10 +232,20 @@ header {
     padding: 10px 20px 20px 20px;
     text-align: center;
     display: flex;
-
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title_sponsor_row{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
+.title_sponsor{
+    width: 30rem !important;
+}
 .index_title {
     color: #00bdff;
     font-size: 35px;
@@ -271,7 +283,7 @@ header {
 }
 
 .sponsor_img {
-    width: 20rem;
+    width: 17rem;
     height: auto;
     padding: 10px;
 }
@@ -378,7 +390,7 @@ For responsiveness of the website*/
 
     .cyber {
         margin-top: 10px;
-        width: 15rem;
+        width: 13rem;
     }
 
     .responsive {
@@ -404,7 +416,7 @@ For responsiveness of the website*/
     }
 
     .registerNow {
-        margin: 10px 20px 10px 20px;
+        margin: 10px 5px 10px 5px;
         padding: 10px;
     }
 
@@ -504,6 +516,15 @@ For responsiveness of the website*/
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
+        align-items: center;
+    }
+    .title_sponsor_row{
+
+        padding: 10px 5px 5px 5px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
         align-items: center;
     }
 
