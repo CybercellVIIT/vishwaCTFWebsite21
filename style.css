@@ -41,7 +41,21 @@ header {
     z-index: 2;
 }
 
+.powered_by{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.powered_sponsor{
+    width: 23rem !important;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+}
 .ctfDate {
     font-size: 45px;
     color: #00bdff;
@@ -61,7 +75,6 @@ header {
 }
 
 
-
 .subtitle {
     color: #fec503;
 }
@@ -69,7 +82,7 @@ header {
 .cyber {
     width: 140px;
     height: auto;
-    margin-top: -40px;
+    margin-top: 20px;
     position: relative;
 }
 
@@ -81,7 +94,7 @@ header {
 }
 
 .responsive {
-    width: 60rem;
+    width: 50rem;
     height: auto;
     margin-top: -40px;
 }
@@ -91,6 +104,7 @@ header {
 .wrapper {
     height: 2rem;
     padding: 40px 0px 0px 0px;
+    margin-bottom: 40px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -406,6 +420,19 @@ For responsiveness of the website*/
         margin-bottom: 15px;
     }
 
+    .powered_by{
+        padding: 10px 5px 5px 5px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .powered_sponsor{
+        width: 15rem;
+        height: auto;
+        padding: 5px;
+    }
     .firstHr {
         display: none;
     }
