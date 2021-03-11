@@ -76,8 +76,19 @@
 
 /* for mobile view */
 @media(max-width: 576px){
-
-
+	.aboutCCHeading{
+		margin-top: 80px !important;
+		margin: auto;
+		width: 80vw;
+		border-radius: 10px;
+		background-color: rgb(25, 40, 68);
+		color: white;
+		font-weight: 100;
+		font-family: 'Poppins';
+		font-size: 1.5em;
+		padding: 2vw;
+		text-align: center;
+	}
 .cybercelLogo{
 	display: flex;
 	justify-content: center;
