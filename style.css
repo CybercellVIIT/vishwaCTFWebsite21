@@ -231,9 +231,10 @@ header {
 }
 
 .prizeBody {
-    padding: 20px;
+    padding: 5px 5px 5px 20px;
     width: 80%;
     margin: auto;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -545,7 +546,7 @@ For responsiveness of the website*/
     }
 
     .prizeBody {
-        padding: 20px;
+        padding: 5px;
         width: 80%;
         margin: auto;
         text-align: center;
