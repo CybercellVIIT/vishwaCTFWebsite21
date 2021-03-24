@@ -1,4 +1,6 @@
-# VishwaCTF
+<img src="https://github.com/CybercellVIIT/vishwaCTFWebsite21/blob/master/vishwa1.png">
+
+# vishwaCTF'21
 
 Repo for collaboration on VishwaCTF21's webpage.
 
